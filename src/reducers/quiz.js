@@ -49,7 +49,7 @@ export const quiz = createSlice({
 
       if (!question) {
         throw new Error(
-          "Could not find question! Check to make sure you are passing the question id correctly."
+          `Could not find question based on questionId ${questionId}! Check to make sure you are passing the question id correctly.`
         );
       }
 
