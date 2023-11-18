@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 // Change these to your own questions!
+// NOTE: At least 5 questions required!
 const questions = [
   {
     id: 1,

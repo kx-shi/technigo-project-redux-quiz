@@ -1,10 +1,12 @@
+/* Component to display answers */
+
 import React from "react";
-import { useSelector } from "react-redux";
+import '../styles/Answer.css';
 
 export const Answer = ( {value} ) => {
-    return (
-        <span>
-            {value}
-        </span>
-    );
+  return (
+    <span className="answer">
+        {value}
+    </span>
+  );
 };
