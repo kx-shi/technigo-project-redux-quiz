@@ -5,16 +5,58 @@ import { createSlice } from "@reduxjs/toolkit";
 const questions = [
   {
     id: 1,
-    questionText: "Who set the Olympic record for the 100m dash in 2012?",
-    options: ["Usain Bolt", "Justin Gatlin", "Tyson Gay", "Asafa Powell"],
-    correctAnswerIndex: 0
+    questionText: "Which built-in method can be used to convert a string to uppercase letters in JavaScript?",
+    options: ["upperCase()", "toUpperCase()", "caseUpper()", "toLowerCase()"],
+    correctAnswerIndex: 1
   },
   {
     id: 2,
     questionText:
-      "When was Michael Phelps last named male World Swimmer of the Year?",
-    options: ["2012", "2014", "2016", "2018"],
+      "What is a function in JavaScript?",
+    options: ["A block of code that executes only once", "A type of loop used to iterate through arrays", "A reusable block of code that can be invoked by its name to perform a specific task", "A data type to store multiple values"],
     correctAnswerIndex: 2
+  },
+  {
+    id: 3,
+    questionText:
+      "What does API stand for?",
+    options: ["Asynchronous Programming Interface", "Advanced Programming Integration", "Asynchronous Python Interface", "Application Programming Interface"],
+    correctAnswerIndex: 3
+  },
+  {
+    id: 4,
+    questionText:
+      "What is the virtual DOM in React?",
+    options: ["An imaginary representation of a web page", "A server used for storing data", "A lightweight version of the actual DOM", "A way to style React components"],
+    correctAnswerIndex: 2
+  },
+  {
+    id: 5,
+    questionText:
+      "In React, what is state?",
+    options: ["The result of a function component", "The props passed down from a parent component", "The data returned from an API", "The internal data of a component that can change over time"],
+    correctAnswerIndex: 3
+  },
+  {
+    id: 6,
+    questionText:
+      "In React, what is the purpose of the fetch() function when working with APIs?",
+    options: ["To make HTTP requests and retrieve data from an API", "To create new components dynamically", "To handle user interactions with the API", "To fetch and update component state"],
+    correctAnswerIndex: 0
+  },
+  {
+    id: 7,
+    questionText:
+      "Which HTTP method is typically used for retrieving data from an API in React?",
+    options: ["POST", "GET", "DELETE", "PUT"],
+    correctAnswerIndex: 1
+  },
+  {
+    id: 8,
+    questionText:
+      "When working with APIs, what does the term 'API endpoint' refer to?",
+    options: ["A function that fetches data from an API", "The main component of a React application", "The starting point of a React application", "A specific URL that represents a unique resource in the API"],
+    correctAnswerIndex: 3
   }
 ];
 
