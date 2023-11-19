@@ -14,6 +14,9 @@ import { Summary } from './components/Summary';
 
 // Styling imports
 import './index.css';
+import '/src/styles/QuizContainer.css';
+
+
 
 const reducer = combineReducers({
   quiz: quiz.reducer
@@ -24,12 +27,15 @@ const store = configureStore({ reducer });
 export const App = () => {
   return (
     <Provider store={store}>
+      <div className="quiz-container">
       <ProgressBar />
       <CurrentQuestion />
       <CurrentAnswers />
       <SelectedAnswer />
       <Summary />
       <StartOver />
+      </div>
     </Provider>
+   
   );
 }
